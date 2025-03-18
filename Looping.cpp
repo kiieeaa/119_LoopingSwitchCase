@@ -18,6 +18,13 @@ cout << endl;
 
 cout << "Perulangan for pecacah turun" << endl;
 
+for (n = 5; n > 0; n--)
+{
+    cout << "Nilai n = " << n << "selamat datang" << endl;
 
 }
+cout << "Nilai n terakhir = " << n;
+cout << endl;
+
+
 
