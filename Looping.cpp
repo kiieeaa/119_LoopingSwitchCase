@@ -26,5 +26,20 @@ for (n = 5; n > 0; n--)
 cout << "Nilai n terakhir = " << n;
 cout << endl;
 
+cout << "perulangan while" << endl;
 
+srand(time(0));
+n = rand () % 10;
+
+cout << "Nilai awal n = " << n << endl;
+while (n < 7)
+{
+    cout << "Nilai n = " << n << endl;
+    n = rand() % 10;
+    perulanganWhile++;
+}
+cout << "Jumlah perulangan = " << perulanganWhile << endl;
+cout << "Nilai n terakhir = " << n << endl;
+
+cout << "perulangan do while" << endl;
 
